@@ -1,0 +1,223 @@
+/* line 5, /home/julien/THP/js-google/app/assets/stylesheets/static_pages.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 10, /home/julien/THP/js-google/app/assets/stylesheets/static_pages.scss */
+html {
+  height: 100%;
+}
+
+/* line 13, /home/julien/THP/js-google/app/assets/stylesheets/static_pages.scss */
+body {
+  font: 16px sans-serif;
+  margin: 0;
+  position: relative;
+  min-height: 100%;
+  background-color: white;
+}
+
+/* line 20, /home/julien/THP/js-google/app/assets/stylesheets/static_pages.scss */
+header {
+  font-weight: 100;
+  padding-left: 5px;
+  margin: 0;
+  text-align: left;
+  color: #fff;
+  min-width: 600px;
+  line-height: 30px;
+}
+
+/* line 29, /home/julien/THP/js-google/app/assets/stylesheets/static_pages.scss */
+header a {
+  font-size: 14px;
+  float: right;
+  margin: 10px;
+}
+
+/* line 34, /home/julien/THP/js-google/app/assets/stylesheets/static_pages.scss */
+header a:hover {
+  text-decoration: underline;
+}
+
+/* line 37, /home/julien/THP/js-google/app/assets/stylesheets/static_pages.scss */
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* line 40, /home/julien/THP/js-google/app/assets/stylesheets/static_pages.scss */
+.headerButton {
+  background: #1E72F0;
+  color: white;
+  border: none;
+  font-weight: bold;
+  height: 30px;
+  width: 93px;
+}
+
+/* line 48, /home/julien/THP/js-google/app/assets/stylesheets/static_pages.scss */
+.headerButton:hover {
+  height: 32px;
+}
+
+/* line 51, /home/julien/THP/js-google/app/assets/stylesheets/static_pages.scss */
+p {
+  display: inline-block;
+  color: #999;
+  margin-left: 30px;
+}
+
+/* line 56, /home/julien/THP/js-google/app/assets/stylesheets/static_pages.scss */
+ul {
+  display: none;
+  width: 400px;
+  margin: 0 auto;
+  border: solid 1px;
+}
+
+/* line 62, /home/julien/THP/js-google/app/assets/stylesheets/static_pages.scss */
+li {
+  list-style: none;
+}
+
+/* line 65, /home/julien/THP/js-google/app/assets/stylesheets/static_pages.scss */
+a {
+  text-decoration: none;
+  color: #333;
+  outline: none;
+}
+
+/* line 70, /home/julien/THP/js-google/app/assets/stylesheets/static_pages.scss */
+.button {
+  font-size: 12px;
+  font-weight: bold;
+  color: #666;
+  background: #E9E9E9;
+  width: 150px;
+  line-height: 20px;
+  border-radius: 3px;
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+
+/* line 81, /home/julien/THP/js-google/app/assets/stylesheets/static_pages.scss */
+.button:hover {
+  cursor: pointer;
+  color: black;
+  border: 1px solid #ccc;
+}
+
+/* line 86, /home/julien/THP/js-google/app/assets/stylesheets/static_pages.scss */
+img.relative {
+  position: relative;
+  display: block;
+  margin: 140px auto 20px;
+  width: 270px;
+}
+
+/* line 92, /home/julien/THP/js-google/app/assets/stylesheets/static_pages.scss */
+span.absolute {
+  position: absolute;
+  color: #4285F6;
+  bottom: 10px;
+  right: 0;
+  width: 0;
+}
+
+/* line 99, /home/julien/THP/js-google/app/assets/stylesheets/static_pages.scss */
+input {
+  width: 100%;
+  line-height: 30px;
+  border: 1px solid #ccc;
+  box-shadow: 0;
+  padding: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 3px #ccc;
+}
+
+/* line 108, /home/julien/THP/js-google/app/assets/stylesheets/static_pages.scss */
+input:hover {
+  border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+  box-shadow: 0 2px 3px #999;
+}
+
+/* line 112, /home/julien/THP/js-google/app/assets/stylesheets/static_pages.scss */
+.container {
+  text-align: center;
+  display: block;
+  width: 700px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* line 119, /home/julien/THP/js-google/app/assets/stylesheets/static_pages.scss */
+footer {
+  color: black;
+  font-size: 12px;
+  background-color: #F2F2F2;
+  height: 30px;
+  line-height: 5px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* line 128, /home/julien/THP/js-google/app/assets/stylesheets/static_pages.scss */
+span {
+  position: absolute;
+  color: blue;
+  bottom: 0;
+  right: 0;
+}
+
+/* line 134, /home/julien/THP/js-google/app/assets/stylesheets/static_pages.scss */
+.float-right {
+  float: right;
+  margin-right: 15px;
+}
+
+/* line 138, /home/julien/THP/js-google/app/assets/stylesheets/static_pages.scss */
+.clear {
+  clear: both;
+}
+
+/* line 141, /home/julien/THP/js-google/app/assets/stylesheets/static_pages.scss */
+.hide {
+  visibility: hidden;
+}
+
+/* line 144, /home/julien/THP/js-google/app/assets/stylesheets/static_pages.scss */
+.bigSquare {
+  margin-top: 80px;
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: purple;
+}
+
+/* line 151, /home/julien/THP/js-google/app/assets/stylesheets/static_pages.scss */
+p.square {
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
